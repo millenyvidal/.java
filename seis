@@ -1,0 +1,25 @@
+package Exercicios;
+import java.util.Scanner;
+
+
+public class seis {
+	public static void main(String[]args) {
+		Scanner input = new Scanner(System.in);
+		
+		final int ano = 365;
+		final int mes= 30;
+		
+	System.out.println("Digite sua idade:");
+	int idade = input.nextInt();
+	
+	System.out.println("agora, digite os meses");
+	int meses = input.nextInt();
+		
+	System.out.println("agora, digite os dias");
+	int dias = input.nextInt();	
+	
+	   int total = (idade*ano)+(meses*mes)+dias;
+	
+	System.out.println(total);   
+ }
+}
